@@ -1,0 +1,2643 @@
+Program:
+
+Sequence of instructions that are needed to be executed in order to
+get the output/result.
+
+Purpose:
+     1)To get the results in a faster manner. 
+     2)To get the results in an accurate manner.
+
+    Example: To add two numbers.
+
+So,to accomplish our tasks,we are writing the code.
+
+This code can be written by using programming languages and also by using the scripting languages.
+
+Basic differences between a programming and scripting language:
+
+Programming Language: C,CPP,Java
+
+1)It takes many lines of code for even a smaller requirement(task)
+2)It increases cost of maintenance
+3)It is heavy weight language
+
+
+
+Scripting Language: Python,Ruby,Perl
+
+1)It takes less lines of code even for a larger requirement(task)
+2)It reduces cost of maintenance
+3)It is light weight Language
+
+What is python:
+Python is a fastest scripting language.
+
+It was created by Guido van Rossum in 1989 and was released in 1991.
+
+Why is it called Python? When Guido van Rossum began implementing Python,he used to read the published scripts from “Monty Python's Flying Circus”, a BBC comedy series from the 1970s. Van Rossum thought he need a name that has to be short, unique, and slightly mysterious, so he decided to put the name of the as language Python.
+
+
+
+The code written in python will be executed very fastly while compared with
+the code written in any other languages.Hence they named the language as "python".
+
+
+Example:
+If i just want to print the value "19" on to the monitor using  java,the following 
+code must be written.....
+
+
+class Sample
+{
+
+public static void main(String args[])
+{
+
+int value;
+value=19;
+System.out.println(value);//19
+
+}
+
+}
+
+
+
+
+If we want to do the same in python,just the following code is sufficient.....
+
+print(19)    
+
+Thats it....................!!!!!!!!!!!!!!!!!!!
+
+As the number of instructions are less,the code will be executed very fastly...
+
+
+Features:
+
+1)It is a scripting Language, developed by Guido Van Rossum in 1989 and was released in 1991.
+
+2)It is an open source i.e. it can be downloaded for free from the below link.
+www.python.org/downloads
+ 
+3)Python is language with a huge following of volunteers that are constantly trying 
+to improve it.
+
+4)It is an Object oriented language ie., in python,every thing will be treated as an object.
+Example :   
+x=“Python is simple and easy to learn” #x is treated as an object.
+print   x.count(“e”) # 3
+
+5)It is Portable/flexible language that means,it runs on many Unix variants, on the Mac, and Windows 2000 and later.
+
+6)It has very rich set of Libraries/Modules(Predefined things).
+
+7)It is simple and easy to learn.
+
+
+
+
+===========Applications============
+Desktop applications
+Web development  --> django
+Game development
+Automation testing
+Networking
+Hadoop(Pydoop) and Bigdata ---->To place data in cloud and also to retrieve data from cloud
+Puppet scripts
+We can integrate python scripts in java using jython tool,in dotnet using ironPython tool.
+=================Disadvantages=====================
+1)Python has a smaller pool of experienced developers compared to other languages like Java.
+
+2)It has database access limitations.
+
+3)The language isn’t a good choice for mobile applications as it is very weak in mobile computing.
+
+4)Slower than C,CPP(platform dependent languages) but faster than platform independent languages.
+
+5)Runtime errors:
+More errors(Exceptions) will be shown at Runtime.(At the time of execution)
+
+6)It's near impossible to build a high-graphic 3D game using Python.
+
+===========================
+1)Compilation:Compiler
+Converts the high level code to  low level code/machine understandable code/binary code.
+ 
+2)Execution:
+Resolving the binary code step by step is called as execution.
+
+ 
+           c+e
+hello.c  ------------>hello.exe
+
+
+
+         compiler              PVM(interpreter)
+hello.py---------->hello.pyc--------------------->hello.exe
+
+pythonclass file
+
+
+
+Compiler
+PVM
+
+
+System---->OS--->
+JVM--->Java appli
+JIT-COm--->.net appli
+PVM-->Python appli
+
+
+
+
+.pyc ====>Python class file
+
+PVM =====>Python Virtual Machine(Interpreter)
+
+
+So, python is both compiler based and interpreter based language.
+
+
+
+Compiler    ====> Translates the whole program into machine code.
+Interpreter  ====>Translates/Resolve program(low level code) one statement at a time.
+
+
+
+Python is both compiler and  interpreter based language....
+   PVM(In)
+HL---->Output
+
+
+
+=================Working with python===================
+To write and execute a python program:
+
+Download and install python software:
+google--->www.python.org--->downloads--->download python3.7(any version).
+Open the downloaded file and install it.
+
+After the  installation,you can see python3.7 folder in "All programs" column of your computer.
+
+Ways to execute python code:
+
+1)Using python line(Command mode)
+2)Usind IDLE(Script mode)
+3)Using PyCharm(better way)
+4)Using normal command prompt
+
+1)Using python command line(Command mode)
+
+To open python in the command mode:
+
+All programs----->python 3.7----->python(black icon with snakes)-->click on it.
+
+
+Type the code/script in the command prompt
+
+(or)
+In the search space of your computer,type "python".Then,we can observe "python comandline".Click on it.
+Then a python cmd prompt will be opened.
+
+2)Using IDLE(Script mode):
+
+To open python in the script mode:
+
+All programs----->python 3.7----->IDLE----->Click on it.
+
+Now IDLE will be opened.
+
+
+
+To write some code,then go to File--->New File---->save the file like hello.py----->Write the code.
+
+You can execute that code in the following manner...
+Run---->Run module.Output will be shown in a separate window(shell).
+
+All your files saved in the IDLE will be going to the below path by default:
+C:\Users\user\AppData\Local\Programs\Python\Python36-32
+
+3)Using PyCharm(better way):
+
+Working with pycharm:
+
+Link to download pycharm:
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+There you will get two options----"Professional" and "Community"
+
+Download "Community" .It is an open source.So, download this.
+Professional is not an open source....Its just a trial version..Later we have to buy it.
+
+To open pycharm:
+
+All programs----->Jetbrains Pycharm------>double click on it.
+
+By default the projects done in pycharm will go to c--->users--->user--->PycharmProjects.
+
+
+4)Using normal command prompt:
+
+To execute a .py program using a normal command prompt,we should
+set the path first.data
+
+Process to set the path:
+
+Path:Indicating the location of .exe files to the OS.
+We are telling the location of those files that makes our program
+to execute.
+
+Process of setting up the path:
+
+                right click
+My Computer------------------->properties----->Advanced--->
+Environmental variables------>User variables--->new--->
+
+variable name:PATH
+variable value:paste
+
+ok----->ok----->ok.
+
+C:\Users\user\AppData\Local\Programs\Python\Python36-32 -------->copy
+
+To check wether the path was properly set or not
+C:>python
+It will show some information if the path was set properly.
+Else,it will show cmd not found.
+
+
+After setting the path,you can take a notepad and you can write the program.After that save the file with the extension .py (hello.py say).
+Let us say your file is there in the desktop.
+Now, open the command prompt and give the compilation and execution commands.
+
+Command for compilation:
+
+>>python -m py_compile hello.py
+
+In the current working directory," __pycache__ " folder will be created
+and inside that you can see hello.pyc file.
+
+
+Command for execution:
+
+>>python hello.py
+
+
+Note:
+Directly you can give the execution command without giving the compilation command.
+If you want to have .pyc file to make it portable,in that case only you should give the compilation command.
+
+
+C:\Users\QSHORE>cd desktop
+
+C:\Users\QSHORE\Desktop>python test.py
+Hello all
+
+================Variables=====================
+
+It is the name of a memory cell.
+This is used to store value.                
+
+Example:
+a=10
+print(a)
+
+o/p:10
+
+==================
+
+
+a=100
+
+a=20
+
+a=90
+
+print(a)  #90
+
+
+
+A variable can store only one value at a time.(The latest value)
+
+
+
+===========================
+a=10
+b=20
+
+print("The value of a is",a)  # str,int
+print('The value of b is',b)
+
+
+The value of a is 10
+The value of b is 20
+================================
+In the  instruction a=10, = is called as an "Assignment operator".
+
+This assignment can be done in two ways:
+1)Assigning single value to multiple variables:
+
+Ex:  
+x=y=z=90
+print(x)
+print(y)
+print(z)
+print(x,y,z)
+
+Output:
+90
+90
+90
+90,90,90
+
+
+2)Assigning multiple values to multiple variables:
+a,b,c=5,10,15  
+print(a)
+print(b)  
+print(c)  
+
+op:
+5
+10
+15
+
+
+Assigning multiple values to multiple variables.
+
+name,gender="Harika","F"
+print(name,gender)
+
+Output:
+Harika   F
+
+================id()==================
+
+id() is used to get the address of a variable.
+
+Syntax:
+id(VariableName)
+
+=======================
+a=10
+print(a)
+print(id(a)) #1001
+
+b=20
+print(id(b)) #1002
+
+c=90
+d=90
+print(id(c)) #1003
+print(id(d)) #1003
+
+
+Both c and d will be pointed to the same address 1003
+
+
+If the values inside the variables are same,then the addresses of the variables will also be same.
+
+
+If the values inside the variables are different,then the addresses of the variables will also be different.
+
+========================
+Rules to be followed to declare variables:
+
+1)Should start with [a-z][A-Z] _
+2)Variable names should not contain any special character(except _)
+3)Variable names are case sensitive.
+4
+)Variable names should not be any keyword.
+
+===========================
+To check the keywords available in python:
+
+Open python in the command mode
+
+>>>help() 
+
+Welcome to Python 3.7!  This is the online help utility.
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at http://docs.python.org/2.7/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, or topics, type "modules",
+"keywords", or "topics".  Each module also comes with a one-line summary
+of what it does; to list the modules whose summaries contain a given word
+such as "spam", type "modules spam".
+
+help> keywords
+
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+and                 elif                if                  print
+as                  else                import              raise
+assert              except              in                  return
+break               exec                is                  try
+class               finally             lambda              while
+continue            for                 not                 with
+def                 from                or                  yield
+del                 global              pass
+help>crtl+z and enter
+#To come out and get a python prompt
+>>>
+================================
+Try to take the variable names as small because it will become easy to access them furthur.
+Ex:
+rollnumber -->Not prefered
+roll_no --->Prefered
+
+============Comments==========================
+Comments:
+What ever we do write under comments,that will not be considered for execution.
+
+
+Python supports two types of comments:
+
+1) Single line comment:
+Used to comment only one line.It is done by using #
+
+Eg:
+#single line comment  
+print("Hello Python") 
+
+output:
+Hello Python
+
+2) Multi lined Comment:
+This is used to comment multiple lines at a time.
+Multi lined comment can be given inside triple quotes or double triple 
+quotes.
+
+eg:
+
+''' This 
+    Is 
+    Multipline comment
+'''  
+eg:
+
+"""
+This is also a
+perfect example of
+multi-line comments
+"""
+
+''' 
+    ====>triple quotes
+
+'''
+
+
+"""
+
+   =====>double triple quotes
+
+"""
+
+
+
+ 
+==General data types===
+
+Data Types: 
+Type of value stored in a variable.
+A variable can store 4 types of  values
+
+int----->Integers(+ve,-ve,0)
+float--->Decimal values(2.6,9.99)
+str(String)--->Collection of characters('a' '1' '@' ---> 'Pinky',"Helloall@123",'''Hai''')
+bool----->True or False
+
+type():Used to know the type of value stored in a variable
+
+
+Important note:
+
+How the datatype of a variable is decided??
+
+Basing on the type of value stored in the variable,we can determine the datatype of that variable.
+
+
+Note:
+String:
+Group of characters or collection of characters is called as a string.
+Every String must me embedded in single,double or in triple quote.
+
+Character:
+Any individual entity
+
+'a'  '1'  '@'
+
+Ex:
+"pinky"
+"1001AbC100@"
+
+
+a=10   #(int---->Integers(+ve,-ve,0))
+print(type(a)) #<type 'int'>
+
+b=2.3  #(float---->Decimal values)
+print(type(b)) #<type 'float'>
+
+String:
+Group of characters is called as a string.
+Character means any individula entity like '1' 'a' '@'
+
+
+name="John"  #(strings----Group of characters)
+print(type(name)) #<type 'str'>
+
+name1='Peter'
+print(type(name1)) #<type 'str'>
+
+
+a=True   #(bool----->To store true or false(T and F must be capital))
+print(type(a))  #<type 'bool'>
+
+
+
+type():
+Used to see the type of value stored in a variable.
+
+Ex:
+
+a=10
+print(type(a))#int
+
+
+
+======Program to add two numbers=====(Execute in cmd prompt)
+a=10
+b=20
+c=a+b
+print(c)
+print('The sum is',c) #The sum is 30
+o/p:30
+# >>c this will also print 30 as output in command prompt
+
+#exit() to exit the cmd prompt
+=====using place holders "{}" in printing the output=======
+
+Something is going to be substituted in the place of a place holder.
+A a place holder is indicated by " {} " .
+
+() ----->function/method/
+format() is a function
+
+print('I love {0} and {1}'.format('bread','butter'))
+# Output: I love bread and  butter                                                   #butter
+
+
+print('I love {1} and {0}'.format('bread','butter'))
+# Output: I love butter and bread
+
+
+'''
+
+a=10
+b=20
+c=a+b ===>The sum of 10 and 20 is 30
+print("The sum of",a,"and",b,"is",c)
+print("The sum of {0} and {1} is {2}".format(a,b,c))
+
+'''
+
+
+Another way of using place holders:
+print('Hello {name}, {greeting}'.format(greeting = 'Goodmorning', name = 'John'))
+Hello John, Goodmorning
+
+print('Hello {name}, {greeting}.I am fine {name}'
+      .format(greeting = 'Goodmorning',  name = 'John'))
+
+
+print('Hello {} ,wishing you {}'.format("John","Happy bday"))
+
+==============Boolean functions=========
+
+Boolean functions will produce the result as either true or false.
+We can  apply boolean functions only on strings.
+
+String is a collection of characters.
+character: '1'  'a'  '@'
+These boolean functions are used to validate the inputed data.
+
+String===>number,alphabet,special symbol
+a,n,s
+
+
+
+================isalpha()==================
+
+isalpha() returns true if all the characters in the string are alphabetic
+my_string="Hello world"
+
+print(my_string.isalpha())
+
+OP:false (because space is a character)
+
+
+str1="HelloWorld"
+print(str1.isalpha())
+
+
+OP:true
+
+Purpose:
+Say,to check wether the name entered by the user is valid or not..
+A valid name should have only alphabets but not numbers and special symbols.
+
+==============isdigit()================
+isdigit() returns true if all the characters of a string contains only digits
+
+str="hfdgkjfdhg"
+print(str.isdigit())
+False
+str="hfdgkjfdhg123"
+print(str.isdigit())
+False
+str="45435435435h"
+ print(str.isdigit())
+False
+ str="45435435435"
+print(str.isdigit())
+True
+
+Purpose:
+Say,to validate a mobile number.It should have only digits.
+==============isalnum()===========
+
+isalnum() returns true if all the characters of a string are 1)numbers or 2)alphabets or
+3)Combination of both
+
+But the string should not contain any special symbols like @, space, etc.
+
+a="Hello world"
+
+print(a.isalnum())
+		
+OP:False #because space is there
+
+>>> str1="3flgkld"
+>>> print(str1.isalnum())
+True
+
+str2="356546"
+>>> print(str2.isalnum())
+True
+
+Purpose:
+Say,to validate the employee Ids ...If an employee id is having special symbol,i will not 
+treat that as a valid one.
+
+=========isupper()=====================
+isupper() returns true if all the alphabets of a string are in upper case.
+
+str1="HELLO"
+print(str1.isupper())
+OP:
+True
+
+
+str5="H78"
+print(str5.isupper())
+True
+
+
+str="Hello"
+print(str.isupper()) #False
+
+Purpose:
+Say, i have stored all the names of the files available in my computer in a notepad.
+I want to get the files(file names) which have all the characters as capital. 
+=========islower()=====================
+islower() returns true if all the alphabets of a string are in lower case.
+
+a='hello'
+print(a.islower())
+OP:True
+
+
+a='Hello'
+print(a.islower())
+OP:false
+
+
+a="hkh6767"
+print(a.islower())
+OP:
+True
+
+a="6767"
+print(a.islower())
+
+Op:
+False
+
+Purpose:
+Say, i have stored all the names of the files available in my computer in a notepad.
+I want to get the files(file names) which have all the characters as small.
+
+===================endswith()============
+endswith() checks wether a string ends with the specified character or not.
+
+b='Hello World'
+print(b.endswith('d'))
+OP:
+True
+
+Purpose:
+Say, i want to get all the employee names in a file that are going to end with "d".
+
+=====================startswith()=================
+startswith() checks wether a string starts with the specified character or not.
+
+b='Hello World'
+print(b.startswith('H'))
+
+OP:
+True
+
+
+Purpose:
+Say, i want to get all the employee names from a file that are going to start with "H".
+
+
+
+So,
+These boolean functions are used to validate the inputed data.
+Let us say,the user entered a mobile no.We can validate it using 
+isdigit().
+
+Enter your mobile number
+mNo=989898989s
+
+mNo.isdigit() #false
+
+
+If the user enters a valid no. then only i will perform the required logic/operations.
+
+Purpose:
+To get the required data from the existing data.
+
+Also, these boolean functions are used to validate the user input
+
+
+
+
+
+
+=============Type casting===================
+
+Type Casting:
+
+Type : Data type
+Casting : Conversion
+                          
+Type Casting:
+Converting the value of one datatype into the value of another datatype is called as type casting.
+
+If we want to convert a value to an integer,then we will use int()
+If we want to convert a value to float,then we will use float()
+If we want to convert a value to a string,then we will use str()
+
+We can convert between different data types by using different type conversion functions like int(), float(),str() etc.
+=============
+a=10
+print(type(a)) #int
+b=float(a)
+print(b)#10.0
+print(type(b)) #float
+
+============= 
+a=float(10) #int---->float
+print(a) #10.0
+print(type(a)) #float
+
+=============
+print(float(5)) #int -- float  5.0
+
+==============
+print(int(10.6)) #float ---int  10
+
+print(int(-10.6))   #-10
+=================
+Conversion to and from string must contain compatible values.
+
+print(float('2.5'))#String---->float #2.5
+
+====================
+a= float('2.5')
+print(a) #2.5
+print(type(a)) #float
+
+==============
+print(str(25)) #int --- string '25'
+===============
+
+int('1p') #str--->int   
+
+Traceback most recent call last):
+  File "<string>", line 301, in runcode
+  File "<interactive input>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '1p'
+We cannot even convert one sequence to another.
+
+Purpose:
+
+Let us say we want to validate an integer data say mobile no.
+In a mobile number all the characters must be digits.
+So,we will apply isdigit().But,isdigit() can be applied only to string
+data.So, in that case, i need to convert that number from int type top string type in order to apply isdigit() on it.
+
+a=98909890
+#print(a.isdigit()) #error.....You cannot apply this method to an integer                                     #type value
+b=str(a)
+print(b.isdigit())
+
+
+Like that in many contexts we will use this casting.
+
+
+=============Accepting input from the user==================
+
+Accept two values from the user and add them.
+
+input() is a function that is used to accept input from the user.
+
+input() will take every thing as a string.
+
+num1 = input('Enter the first  number: ') #"2"
+num2 = input('Enter the second number: ') #"4"
+num3=num1+num2
+print(num3)
+
+Output:
+Enter the first  number: 2
+Enter the second number: 4
+24
+
+
+2 and 4 were concatenated but not added.
+
+So,convert the str values to int values.
+
+code:
+num1 = int(input('Enter the first  number: ')) #"2"
+num2 = int(input('Enter the second number: ')) #"4"
+num3=num1+num2
+print(num3)
+
+6
+
+=====================================================
+Accept different types of inputs from the user:
+
+age = input('Enter your age ')#Accepting an integer
+print("Your age is",age)
+print(type(age))
+
+package=input('Enter your package ')#Accepting a decimal value
+print("Your package is",package)
+print(type(package))
+
+gender = input('Enter your gender ')#Accepting a character
+print("Your gender is",gender)
+print(type(gender))
+
+name=input('Enter your name ')#Accepting a string
+print("Your name is",name)
+print(type(name))
+
+In 3.6,to accept all types of values,we use input()
+
+But, in 2.7 to accept  integers and decimals, we use input() and to accept the strings,we will use raw_input().
+
+input()--->integers and decimals
+raw_input()---->String
+
+
+
+====================Literals=========================
+Literal:
+
+Value assigned to a variable.
+
+a=10
+
+we can call 10 as an integer literal
+
+b=2.3
+
+We can call 2.3 as a float literal
+
+c=True
+
+We can call True as a bool literal
+
+s="Anushka"
+s='Anushka'
+s='''Anushka'''
+
+
+We can call Anushka as a string literal.
+
+Types of String literals:
+
+There are two types of Strings supported in Python:
+
+a)Single line String- Strings that are terminated within a single line are known as 
+Single line Strings.
+
+Eg:
+
+text1='hello'  
+text1="hello"
+text1='''hello'''
+
+
+b)Multi line String- A piece of text that is spread along multiple lines is known as Multi line String.
+
+Ex:
+
+Hello how
+are
+you
+
+
+There are two ways to create Multiline Strings:
+
+1)By using \ and  (\ is called as a line continution character)
+2)By using '''  '''(Triple quotes)
+
+1)By using \ and  (\ is called as a line continuion character):
+
+If i want to write the content in the next line,then terminate the
+current line by putting \ at the end of the line
+
+===============================
+text1='Hello\
+user'
+print(text1)
+
+op:Hellouser
+
+text1='Hello \
+user'
+
+print(text1)
+
+op:Hello user
+
+2)By using '''  '''(Triple quotes):
+
+To print the String as it is,we have to use '''   '''(Triple quotes)
+
+str2='''welcome 
+to 
+SSSIT'''  
+
+print(str2)
+
+op:
+welcome
+to
+SSSIT
+
+
+=================================
+
+
+name='Anushka \
+Akhil'
+print(name)
+
+name2='''Harika
+Kotha
+Vipra'''
+
+print(name2)
+
+===============Operators================
+Operator:
+An operator will perform  operations.
+
+Operand:
+Upon what we are going to perform operation,they will become operands.
+
+c=a+b
+
++ as operator
+
+a,b ----->Operands
+
+Types of operators:
+
+1)Arithmetic operators:
+Operators	Description
+
++	To perform addition
+-	To perform subtraction
+*	To perform multiplication
+/	To perform division(quotient with decimal part)
+%	To return remainder after division(Modulus)(Remainder will be the answer)
+//	Perform Floor division(quotient without decimal part)
+**	Perform exponent(raise to power)
+eg:
+
+>>> 10+20  
+30  
+
+>>> 20-10  
+10
+
+>>> 10*2  
+20
+  
+>>> 10/3
+3.3333333333333335 
+
+
+  
+>>> 2**3    (2 power 3)  
+8
+  
+>>> 10%3  (Remainder)
+1
+
+>>> 10/3 (quotient with decimal part)
+3.3333333333333335
+
+>>> 10//3 (quotient without decimal part)
+3
+>>>  
+
+
+2)Relational Operators:
+Operators	Description
+<	Less than
+>	Greater than
+<=	Less than or equal to
+>=	Greater than or equal to
+==	Equal to (comparision operator)
+!=	Not equal to
+
+
+They will tell the relation between two entities as true or false.
+
+eg:
+
+>>> 10<20  
+True  
+>>> 10>20  
+False  
+>>> 10<=10  
+True  
+>>> 20>=15  
+True  
+>>> 5==6  
+False  
+>>10==10
+True
+
+>>> 5!=6  
+True  
+  
+3)Assignment Operators:
+Operators	Description
+=	Assignment
+/=	Divide and Assign
++=	Add and assign
+-=	Subtract and Assign
+*=	Multiply and assign
+%=	Modulus and assign
+**=	Exponent and assign
+//=	Floor division and assign
+
+eg:
+
+>>> c=10  
+>>> c  
+10  
+>>> c+=5  (c=c+5)
+>>> c  
+15  
+>>> c-=5  
+>>> c  
+10  
+>>> c*=2  
+>>> c  
+20  
+>>> c/=2  
+>>> c  
+10  
+>>> c%=3  
+>>> c  
+1  
+>>> c=5  
+>>> c**=2 #c=c**2
+>>> c  
+25  
+>>> c//=2  
+>>> c  
+12  
+>>>  
+
+4)Logical Operators:
+
+Operators	Description
+and	Logical AND(When both conditions are true output will be true)
+or	Logical OR (If any one condition is true output will be true)
+not	Logical NOT(Compliment the condition i.e., reverse)
+
+
+
+and:
+
+If both the input bits(a,b) are 1 ,then the result is 1.Else,the result is 0.
+
+a b     a and b 
+1 0        0 
+0 1        0       
+1 1        1
+0 0        0
+
+
+
+or:
+
+If atleast one input bit is 1,then a or b will become 1
+
+a b     a or b 
+1 0        1   
+0 1        1     
+1 1        1     
+0 0        0        
+
+not:
+Negation / reverse
+
+print(not(8==8))
+not(1)
+false
+
+output:
+false
+
+
+True--->1
+False-->0
+
+==============================
+a=5>4 and 3>2  #1 and 1 =1
+print(a)  
+b=5>4 or 3<2 # 1 or 0  =1
+print(b)  
+c=not(5>4) # not(True)  
+print(c)  
+
+ 
+output:  
+True  
+True  
+False  
+  
+
+
+Membership Operators:
+Operators	Description
+in	Returns true if a variable's value is in the sequence ,else false.
+not in	Returns true if a variable's value is not in the sequence ,else false.
+
+eg:
+
+in:
+a=[1,2,3,4]
+b=3
+
+print(b in  a) #true
+
+not in:
+a=[1,2,3,4]
+b=3
+
+print(b not in  a) #False
+
+
+
+Identity Operators:
+Operators	Description
+is	        Returns true if identity(addresses) of two operands are same, else                                                                          false.
+is not	        Returns true if identity(addresses) of two operands are not same,                                                                       else false.
+
+Ex:
+
+is:
+
+a=20
+b=20
+
+print(a is b) #true
+
+
+is not:
+a=20
+b=20
+print(a is not b)#False
+
+Unary operator:
+Will be applied only on single operand
+
+a=10
+print(-a) #-10
+
+
+Bitwise Operators:
+
+1)Bitwise complement(~)
+
+Always 2s complement compiler will print
+
+2S complement= -(N+1)
+
+a=4
+print(~a) # -5
+
+
+2)Bitwise And(&):
+
+
+8421 code:
+a=13
+b=5
+print(a&b)#5
+
+
+13---->1101
+5----->0101
+------------
+13&5-->0101--->5
+
+
+3)Bitwise Or(|):
+
+a=13
+b=5
+print(a|b)#13
+
+
+13---->1101
+5----->0101
+------------
+13|5-->1101--->13
+
+4)Leftshift(<<) operator:
+
+
+a=4
+
+print(a<<2) #16 
+
+
+Formula:
+
+x*2^y
+
+Here x=4 and y=2
+
+So, 4*2^2=4*4=16
+
+
+5)Right shift(>>) operator:
+
+
+a=4
+
+print(a>>2) #1 
+
+
+Formula:
+
+x/2^y
+
+Here x=4 and y=2
+
+So, 4/2^2=4/4=1
+
+
+5)XOR(^):
+
+If both the bits are same,false will be returned
+
+a b     a ^ b 
+1 0       1  
+0 1       1       
+1 1       0
+0 0       0
+
+a=5>4 ^ 3>2  #1 ^ 1
+print(a) #False
+
+==================Control instructions====================
+Control instructions:
+
+Controls the flow of execution.
+---
+---
+---
+---
+---
+
+
+             ---->Sequence control
+             
+             ---->Decision control                                                 
+             
+                        ---->if(pure if)             
+                        ---->if-else
+                        ---->if-elif /if-else ladder
+            ---->Loop control 
+                        ---->for
+                        ---->while
+			---->for-else
+			---->while-else
+             
+========Sequence Control instructions=============
+
+In which order we do write the instructions,if in the same  order the instructions are getting executed,then they are called as sequence control instructions.
+
+-----------
+-----------
+-----------
+-----------
+-----------
+-----------
+=================Decision control instructions======================
+Depending on the condition,we will decide wether to execute or skip a set of instructions.
+
+1)if:
+The if statement in python is same as c language which is used test a condition. If the condition is true, statements of if block will be executed otherwise they is skipped.
+
+Syntax of python if statement:
+
+---
+---
+if(condition):  
+     statements  
+---
+----
+ 
+
+
+Example of if statement in python
+===================================
+a=10
+if a==10:  
+        print("Hello User")
+print("End of program")
+
+
+Output:
+
+Hello User
+End of program
+===================================
+
+age=int(input("Enter your age:"))
+
+if age>=22:
+    print("eligible for marriage")
+    print("All the best")
+print("Done")
+
+
+===============================
+num = 3
+
+if num > 0:
+   
+   print(num, "is a positive number.")
+print("This is always printed.")
+
+
+
+num = -1
+if num > 0:
+
+    print(num, "is a positive number.")
+
+    print("This will also be printed.")
+print("Done")
+
+op:
+(3, 'is a positive number.')
+This is always printed.
+Done
+
+
+2)if else
+
+Syntax:
+
+if condition:   
+           statements  
+else:     
+           statements
+
+If the condition is true, the instructions of "if block" will be executed.
+If the condition is false, the instructions of "else block" will be executed.
+
+===================
+num =3
+
+if num >= 0:
+    print("Positive or Zero")
+else:
+    print("Negative number")
+
+op:Positive or Zero
+
+===================
+year=2000  
+if year%4==0:  
+    print("Year is Leap")
+else:  
+    print("Year is not Leap")
+
+Output:
+Year is Leap   
+
+3)if else ladder/if elif:
+If we need to check for multiple conditions,then we use if  elif .
+
+This statement is like executing a if statement inside a else statement.
+
+Syntax:
+
+
+if condition:  
+   statements 
+elif condition:  
+   statements
+elif condition:  
+   statements
+elif condition:  
+   statements
+else:  
+   statements
+--
+--
+--
+
+======================
+if condition:  
+    # logic 1
+elif condition:  
+    # logic 2
+elif condition:  
+    # logic 3 
+elif condition:  
+    # logic4 
+else:  
+    # logic 5    
+--
+--
+-- 
+
+
+Examples:
+
+
+===================Determining the grade====================
+marks=int(input("Enter the marks:"))#36
+
+if marks>=90:
+    print("Grade A")
+
+elif marks>=80:
+    print("Grade B")
+
+elif marks>=70:
+    print("Grade C")
+
+elif marks>=60:
+    print("Grade D")
+
+else:
+    print("Failed")
+
+print("Done")
+
+
+
+=====================
+num = 3.4
+
+if num > 0:
+    print("Positive number")
+elif num == 0:
+    print("Zero")
+else:
+    print("Negative number")
+
+op:Positive number
+=======================
+a=10  
+if a>=20:  
+    print("Condition is True")
+elif a>=15:  
+        print("Checking second value")  
+else:
+        print("All Conditions are false")
+
+op:All Conditions are false
+==================nested if====================
+Nesting:
+One inside another is called as nesting.
+"if" inside another "if" is called as nested if
+
+if condition:
+    -----
+    -----
+    if condition:
+        -----
+        -------
+    else:
+        -------
+        -------
+
+else:
+ ----
+ ----
+
+
+
+
+==================
+num = int(input("Enter a number: ")) #10
+if num >= 0:
+    if num == 0:
+        print("Zero")
+    else:
+        print("Positive number")
+else:
+    print("Negative number")
+op:
+Enter a number: 10
+Positive number
+
+===================
+a=10  
+if a>=20:  
+    print("Condition is True")
+else:  
+    if a>=15:  
+        print("Checking second value")  
+    else:  
+        print("All Conditions are false")  
+
+Output:
+All Conditions are false.
+
+=================User details validation===============
+print("     personal details".strip().title()) #strip() -->To remove unwanted spaces
+                                               #title()-->To put every word starting
+                                               #letter as capital
+first_name=input("Enter your first name ")
+last_name=input("Enter your last name ")
+
+full_name=first_name+last_name
+
+print(full_name)
+
+num=input("enter mobile number\n")
+#print(type(num))
+if (len(num)) != 10:
+   print("invalid mobile number")
+elif num.isdigit()== False:
+   print(" invalid mobile number")
+else:
+   print(" valid mobile number")
+
+===================
+age=int(input("Enter your age "))#29
+gender=input("Enter your gender")#F
+qua=input("Enter your qualification")#MBA
+
+
+if (age<=30 and gender=="F"):
+    if (qua=="M.Tech" ):
+       print("2000 rupees")
+    elif (qua=="B.Tech" ):
+       print("1000 rupees")
+    else:
+       print("500 rupees")
+else:
+   print("No con in the fee")
+
+print ("thanks")
+
+
+===================
+age=int(input("Enter your age "))
+gender=input("Enter your gender")#f
+qua=input("Enter your qualification")#mtech
+
+
+if (age<=30 and gender.upper()=="F"):
+    if (qua.upper()== "M.TECH" or qua.upper()=="MTECH"):
+       print("2000 rupees")
+    elif (qua.upper()=="B.TECH" or qua.upper() == "BTECH"):
+       print("1000 rupees")
+    else:
+       print("500 rupees")
+else:
+   print("No con in the fee")
+
+print ("thanks")
+
+ 
+=========Loops================
+
+If you want to repeatedly execute a set of statements just by writing them for once,then you can use loops.
+
+
+Types:
+
+1)for
+2)for else
+3)while
+4)while else
+
+========================for loop============
+
+for loop is used to iterate over a sequence of values(i.e., list or string) in the order that they appear.
+
+
+
+Syntax:
+
+
+for variable in sequence:  
+	------
+	------
+	------  # Instructions that have to be executed repeatedly
+	------
+	------
+
+
+========To print 1 to 10 numbers=======
+for n in range(1,11):  #11 means,upto 10 will be considered
+    
+ print(n)
+
+=======To display table of numbers========
+num=2  
+
+for a in range (1,6):  
+    print(num * a)  
+========Program to find sum of Natural numbers from 1 to 10==========
+
+sum=0  
+for n in range(1,11):  
+    sum=sum+n 
+print(sum) 
+
+
+
+=============================
+# Program to find the sum of all numbers stored in a list
+
+
+# List of numbers
+
+numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
+sum = 0
+for val in numbers:
+  sum = sum+val
+print("The sum is", sum)
+
+op:
+The sum is 48
+
+======Write a python script accept a string and find length of the string without using len()====
+
+
+x=input("Enter a string :")#Harika
+
+cnt=0
+for i in x :
+    cnt=cnt+1
+print("Length of ",x," is : ",cnt)
+
+====Write a python script accept a string and count no.of vowels in a given string===
+
+x=input("Enter a string :")
+cnt=0
+for i in x :
+    if i in "aeiouAEIOU" :
+        cnt=cnt+1
+print("Total no of vowels in ",x ,"is : ",cnt)
+
+===========More about range() ==========================
+
+range(StartingPoint,EndingPoint,Step)
+
+
+0 is the default value for StartingPoint
+1 is the default value for Step
+
+for i in range(10): #This is similar to range(0,10,1).From 0 to 9 print the values
+                    #with the increment value 1
+	print(i)
+
+
+output:0 to 9
+
+for i in range(10,20):
+	print(i)   #Prints 10 to 19 values
+
+
+for k in range(1,20,3):
+	print(k)   #Prints 1 to 19 values with the increment value 3
+
+for i in range(30,10,-3):
+    print(i)
+
+
+Output:
+30
+27
+24
+21
+18
+15
+12
+
+====== Write a python script print even numbers from 2 to 100 ==========
+
+for   i  in  range(2,101,2) :
+    print(i)
+
+========= Write a python script to print odd numbers from 99 to 1 =================
+
+for   i  in   range(99,0,-2) :
+    print(i)
+
+
+
+
+========To add 10 to all the values in a list==========
+
+a=[1,2,3,4]
+
+for i in a:
+    i=i+10
+    print(i)
+(or)
+
+a=[1,2,3,4]
+b= [(i+10)  for i in a]
+print(b)
+
+Note:
+
+for i in a ---->First this will be executed
+(i+10)--------->This will be executed secondly
+
+
+
+===========To print odd and even numbers from a list==========
+
+x=[1,2,3,4,5,6,7]
+
+for i in x:
+	if(i%2==0):
+		print("The number",i,"is even")
+	else:
+		print("The number",i," is odd")
+
+=============================================================
+
+x=input("Enter a string :")
+cnt=0
+for i in x :
+    if i in "aeiouAEIOU" :
+        cnt=cnt+1
+        print(i)
+print("Total no of vowels in ",x ,"is : ",cnt)
+
+
+
+
+
+==================for-else================
+A for loop can have an optional else block as well. The else part is executed if the items in the sequence used
+in for loop exhausts.That means,after completing the execution of for,the cursor will go to else part and will
+execute the instructions under that else part.But,in a loop,if break statement is used,else part will never be executed.
+break statement can be used to stop a for loop. In such case, the else part is ignored.
+Hence, a for loop's else part runs if no break occurs.
+===============================
+Syntax:
+
+for variable in sequence:
+	statements
+else:
+	statements
+
+
+
+After completely executing  the loop, the cursor will go to the else part,execute the instructions in the else part and then only the remaining instructions will be executed.
+(if "break" is not there in the for loop body)
+
+=========break=========
+As soon as the cursor encounter the break
+keyword,it will skip all the statements
+after "break" and exits(comes out) of that
+block in which break is written.
+
+In the for body,if the "break" keyword is there,then the else part of for else will not be executed.
+
+Ex:
+
+digits = [0, 1, 5]
+
+for i in digits:
+    print(i)
+
+else:
+    print("No items left.")
+op:
+0
+1
+5
+No items left.
+=======================
+digits = [0, 1, 5]
+
+for i in digits:
+    print(i)
+    break
+else:
+    print("No items left.")
+op:
+0
+
+=======If we write the program with out for-else..that is using normal if-else,
+observe the problem========
+
+Print the first even number in the list.If there is no even no. in the list, print 
+"Even no is not found".
+ 
+numbers=[1,3,4,5,6,7,8,9] 
+
+for i in numbers:
+    if(i%2==0):
+        print("Even no was found and it is",i)
+        break
+    else:
+        print("Even no has not found")
+Op:
+Even no is not found
+Even no is not found
+Even no was found and it is 4
+
+========So use for else============
+numbers=[1,3,4,5,6,7,8,9]
+
+for i in numbers:
+    if(i%2==0):
+        print("Even no was found and it is",i)
+        break
+else:
+        print("Even no has not found")
+
+
+
+
+=============Nested loops============
+Loops defined within another Loop is called Nested Loop.
+
+When an outer loop contains an inner loop in its body it is called Nested Looping.
+
+Syntax:
+
+for  <expression>:  
+        for <expression>:  
+            Body  
+
+eg:
+==============to print 1 to 3 tables upto 10=================
+for i in range(1,4):
+
+	for j in range(1,11):
+		print(i,"*",j,"=",i*j)
+		
+
+
+Note:
+i=[1,2,3]
+j=[1,2,3,4,5,6,7,8,9,10]
+
+Output:
+1 * 1 = 1
+
+
+1 * 2 = 2
+
+
+1 * 3 = 3
+
+
+1 * 4 = 4
+
+
+1 * 5 = 5
+
+
+1 * 6 = 6
+
+
+1 * 7 = 7
+
+
+1 * 8 = 8
+
+
+1 * 9 = 9
+
+
+1 * 10 = 10
+
+
+2 * 1 = 2
+
+
+2 * 2 = 4
+
+
+2 * 3 = 6
+
+
+2 * 4 = 8
+
+
+2 * 5 = 10
+
+
+2 * 6 = 12
+
+
+2 * 7 = 14
+
+
+2 * 8 = 16
+
+
+2 * 9 = 18
+
+
+2 * 10 = 20
+
+
+3 * 1 = 3
+
+
+3 * 2 = 6
+
+
+3 * 3 = 9
+
+
+3 * 4 = 12
+
+
+3 * 5 = 15
+
+
+3 * 6 = 18
+
+
+3 * 7 = 21
+
+
+3 * 8 = 24
+
+
+3 * 9 = 27
+
+
+3 * 10 = 30
+
+
+
+Purpose of nested loops:
+
+If we have 10 files and in each file we need to perform some repeated operations,
+then we can go for nested loops.
+
+
+For performing operations on matrices(rows one loop variable,column one
+loop variable).
+
+=====using "end" keyword  in the print statement=======
+for i in range(10):
+    print(i,end=",")
+
+
+output:
+0,1,2,3,4,5,6,7,8,9,
+
+for i in range(10):
+    print(i,end=" ")
+
+output:
+0 1 2 3 4 5 6 7 8 9
+
+
+========Using conversion string/format string in the print instruction=======	
+
+
+%d or %i --> integer
+%s  --> string,bool
+%f ---> float
+
+==================================
+name = "ravi"
+age = 24
+
+print(" student name %s and age is %d" %(name,age))
+
+=============================
+name = "ravi"
+age = 24
+package=3.3
+fact=False
+
+print(" student name %s and age is %i and package is %f and fact is %s" %(name,age,package,fact))
+
+
+=================while loop=============
+while Loop is used to execute number of statements or body till the condition passed in while is true.
+Once the condition is false, the control will come out of the loop.
+ 
+Syntax:
+
+while condition:  
+        Body  
+
+Here, body will execute multiple times till the expression passed is true. The Body may be a single statement or multiple statements.
+
+=============To print 1 to 10 numbers===========
+a=1  
+while a<=10:  
+    print("Value of a is",a)
+    a=a+1
+    
+
+=======================    
+a=10  
+while a>0:  
+    print("Value of a is",a)  
+    a=a-2  
+print("Loop is Completed")
+
+Output:
+Value of a is 10  
+Value of a is 8  
+Value of a is 6  
+Value of a is 4  
+Value of a is 2  
+Loop is Completed  
+==============================
+n = 10
+sum = 0
+i = 1
+while i <= n:
+    sum = sum + i
+    i = i+1    # update counter
+print("The sum is", sum)
+
+op:
+('The sum is', 55)
+
+==================while with else==============
+That means,after completing the execution of while,the cursor will go to else part 
+and will execute the instructions under that else part.But,in a loop,if break statement is used,else part will never be executed.
+==============
+
+while condition:
+         ---
+         ---
+         ---
+else:
+        
+        ---
+        ----
+        ---
+
+
+
+
+counter = 0
+
+while counter < 3:
+    print("Inside loop")
+    counter = counter + 1
+else:
+    print("Inside else")
+op:
+Inside loop
+Inside loop
+Inside loop
+Inside else
+===================
+counter = 0
+
+while counter < 3:
+    print("Inside loop")
+    break
+    counter = counter + 1
+
+else:
+    print("Inside else")
+
+OP:
+Inside loop
+=========Write a python script to calculate the percentage of marks obtained by the students using while loop====
+
+more = True
+while more==True:
+	
+	name = input("Enter your name >>>")
+	maths_marks = float(input("Maths marks >>>"))
+	science_marks = float(input("Science marks >>>"))
+	english_marks = float(input("English marks >>>"))
+	comupter_marks =float(input("Computer marks >>>"))
+	total = maths_marks+science_marks+english_marks+comupter_marks
+	 # using 400.0 to get faction value else if total will be less than 400(and mostly it will be)          #then it will be 0
+	percentage = (total/400.0)*100
+	print( name,", your total marks is",total,"and your percentage is",percentage)
+
+	#User have to enter y if he want to run it again
+	a =input("Want to enter more y/n >>>")#n
+	if a!="y":
+		
+		more = False
+
+========Python script to display the values 1,2,3 only by using while and break combination =============
+i = 1
+while i < 6:
+  print(i)
+  if (i == 3):
+    break
+  i += 1
+
+
+
+Purpose of for loop and while loop:
+
+
+while---> if condition true then only it will entered
+
+some tasks --> both loops can help
+
+In python to read seqence datatypes "for" can be used , which we can't do in "while".
+
+=========break=========
+As soon as the cursor encounter the break
+keyword,it will skip all the statements
+after "break" and exits(comes out) of that
+block in which break is written.
+
+===============================
+for val in "string":
+    if val == "i":
+        break
+    print(val)
+
+print("The end")
+
+op:
+s
+t
+r
+The end
+
+
+==========continue================
+As soon as the cursor encounter the continue
+keyword,it will skip all the statements 
+after continue and it will directly be
+going to the condition.
+of the loop.
+================
+for val in "string":
+    if val == "i":
+        continue
+    print(val)
+
+print("The end")
+
+op:
+s
+t
+r
+n
+g
+The end
+============================
+a=0  
+while a<=5:  
+    a=a+1  
+    if a%2==0:  
+        continue  
+    print a  
+print "End of Loop"  
+
+Output:
+1  
+3  
+5  
+End of Loop  
+
+================pass=======================
+In Python programming, pass is a null statement
+We generally use it as a placeholder.
+
+Suppose we have a loop or a function that is not implemented yet, but we want to 
+implement it in the future.
+They cannot have an empty body. The interpreter would complain. So, we use the pass statement to construct a body that does nothing.
+=====================================
+# pass is just a placeholder 
+
+# functionality to be added later.
+
+sequence = {'p', 'a', 's', 's'}
+   
+for val in sequence:
+  ++-
+  pass
+
+ 
+==================Indexing and Slicing====================
+Indexing:
+
+Used to retrieve an element  randomly from the sequence.
+
+
+
+a=[10,20,30,40,50]
+
+-5  -4  -3  -2  -1
+10  20  30  40  50      =====>a[4],a[-1]==>50
+0   1    2   3   4
+
+The elements of a list will have two types of indices:
+1)Positive index---->left to right---->Starts from 0
+
+2)Negative index---->right to left---->Starts from -1
+
+
+=================
+To get 40
+a[3]
+a[-2]
+
+20
+
+a[1]=20
+a[-4]=20
+
+
+10
+a[0]
+a[-5]
+
+Slicing:
+To get a part of data from the sequence,we will use slicing.
+
+a=[10,20,30,40,50]
+
+Two slice operators are available:
+1) ::
+2) :
+
+
+:: ====>Leaving the values or printing the values
+
+Printing::Leaving
+
+Printing:Printing
+
+
+:: -->
+
+
+::x ===>Leave the (x-1) values from the beginning
+::-x ===>Leave the (x-1) values from the ending
+
+a=(10,20,30,40,50,60)  
+
+print(a[::-2])#From ending,leave 1 value and print #(60, 40, 20)
+
+
+print(a[::2])#From starting,leave 1 value and print #(10, 30, 50)
+print(a[::3])#From starting,leave 2 values and print #(10, 40)
+print(a[::-3])#From ending,leave 2 value and print #(60, 30)
+print(a[::-1])
+
+
+a=(10,20,30,40,50,60) 
+
+-x:: ====> From x,print the values till end 
+x:: ====> From x,print the values till end 
+
+print(a[-4::])#From -4,it will print the values till end #(30,40, 50, 60)
+print(a[4::])#From 4,it will print the values till end#(50, 60)
+print(a[-2::])
+
+
+Printing:Printing
+
+a[Starting Point:Ending Point]
+
+
+a=[10,20,30,40,50,60]
+print(a[1:5])#From 1 to 4,the values will be printed #20,30,40,50
+
+
+print a[-3:]#From -3,till end,all the elements will be printed #(40, 50, 60)
+print a[-3::]#From -3,till end,all the elements will be printed #(40, 50, 60)
+#If we put value(say -3:) before :: or : ,there is no difference because the elements
+will be printed till end.
+
+print a[:3]#From starting to 2nd index,values will be printed#(10,20,30)
+print a[::3]#From starting,it will leave 2 values and prints#(10,40)
+
+#If we put value(say :3) After :: or :,there is difference as shown above.
+============================
+Ex1:To get the student address age and marks
+student=[sno sname sadd sage smarks sgrade]
+
+address,age,marks
+
+print(student[2:5])
+
+======Predict the output of the following script=====================
+a=[10,20,30,40]
+for i in a[0:3]:
+    print(i)
+======Predict the output of the following script=====================
+
+a=[10,20,30,40]
+for i in a[::-2]:
+    print(i)
+
+======Predict the output of the following script=====================
+a=[10,20,30,40]
+for i in a[:]:
+    print(i)
+
+
+============To convert the words in the list into uppercase=================
+Ex2:
+dataset =  ['python','java','perl']
+
+for i in dataset:
+	print(i.upper())
+	
+
+output:
+
+PYTHON
+JAVA
+PERL	
+==========To convert each word first letter into uppercase============	
+Ex3:
+dataset =  ['python','java','perl']
+for i in dataset:
+	print(i[0].upper()+i[1:])
+	
+Python
+Java
+Perl
+
+
+====================WAP print whatever elements ending with 's' character==========
+
+x=['unix','linux','perl','python','java','perl','aws','linux','devops']
+
+for  i  in  x  :
+    if i[-1] in "Ss" :
+        print(i)
+=====================Special Data types========================
+
+1)List
+2)Set
+3)Tuple
+4)Dictionary
+
+
+Indexing:
+
+	a=[10,20,30,40]
+
+Consider the above list....
+
+Negative index
+<--------------------------
+-4	-3	-2      -1
+
+10	20	30	40
+
+0	1	2	3
+---------------------------->Positive index
+
+Ex:
+a=[10,20,30,40]
+
+print(type(a))#list
+
+print(a[2]);#30
+print(a[0]);#10
+print(a[-2]);#30
+print(a[-4]);#10
+
+
+
+
+List:
+
+1)Indicated by  []  .
+
+2)List is a collection of heterogeneous/homogeneous elements.
+Ex:
+b=["1001AB","Harika",30,"Hyd",18.9]
+print("The details of our tutor")
+print(b)
+
+3)List elemets are mutable(modifiable).
+Ex:
+a=[10,20,30,40]
+
+a[1]=200 #Modifiying
+print(a)#[10, 200, 30, 40]
+
+a.append(50)
+print(a)#[10, 200, 30, 40, 50]
+
+a.remove(200) #will take the value to be removed but not the index
+print(a)#[10, 30, 40, 50]
+
+4)Lists are ordered.
+It will take the values in the same order that we give.
+Ex:
+a=[10,20,30,40]
+print(a)
+
+output:
+[10,20,30,40]
+
+
+5)x=[]  #empty list
+
+6)Allows duplicates.
+a=[1,2,3,4,3]
+print(a) #[1, 2, 3, 4, 3]
+
+
+================================
+append() and extend() :
+Both the methods are used to concatenate the values to the list.
+
+a=[1,2,3,4]
+a.append(5)#To append only one value
+print(a)#[1,2,3,4,5]
+
+a=[1,2,3,4]
+b=[6,7,8,9]
+a.extend(b)#To append multiple values
+print(a)
+
+=======================================
+remove() and del
+
+a=[1,2,3,4]
+a.remove(4)#remove() directly takes the value to be removed 
+print(a)#1,2,3
+
+b=[1,2,3,4]
+del b[2]#del will takes the index of the value to be removed
+print(b)#[1, 2, 4]
+
+b=[10,20,30,40]
+del b[:]  removes all the elements in b by leaving the object b
+print(b) #[]
+
+del b   #removes the object b from the memory
+#print(b) #name 'b' is not defined
+
+a=[10,20,30,40,50,60,70]
+del a[2:5]
+print(a)
+
+=============================
+append() and insert():
+
+append() can insert a value at the end of the list by default.
+insert() can insert a value at an index specified
+
+a=[1,2,3,4]
+a.append(5)#To add a value at the end
+print(a)
+
+
+a=[10,20,30,40]
+a.insert(2,300)#insert(index,value)
+print(a)#[10, 20, 300, 30, 40]
+
+=============================
+pop():
+
+a=[1,2,3,4]
+a.pop()#Removes the last value in the list by default
+print(a)#[1, 2, 3]
+
+b=[1,2,3,4]
+b.pop(0) #Removes the value at the specified index
+print(b)#[2, 3, 4]
+
+
+===========================
+count(): To count the no of occurences of a specified value.
+a=[1,2,3,4,2,3,5,2,2]
+print(a.count(2))#4
+print(a.count(12))#0
+
+===========================
+reverse():
+a=[10,20,30,40]
+a.reverse() 
+print(a)#[40,30,20,10]
+
+==============================
+a=[1110,200,130,40,50,60]
+#To print the list elements in the ascending order,we have to apply sort().
+a.sort()
+print(a)#[40, 50, 60, 130, 200, 1110]
+
+#To print the list elements in the descending order,we have to apply
+#sort() and then reverse()
+
+a=[1110,200,130,40,50,60]
+a.sort()
+a.reverse()
+print(a)
+
+output:
+[1110, 200, 130, 60, 50, 40]
+
+
+
+
+#Directly printing the list elements in the descending order using
+#sorted()
+c=[10,2,30,1]
+d=sorted(c,reverse=True) #Sorted() will never change the source.To store
+                         #the sorted values,one more object is required.
+print(d)
+
+print(c)
+=================
+
+===================================================
+index(VALUE):
+a=[10,20,30,40]
+print(a.index(20))
+
+output:
+1
+
+==============
+max(),len(),sum(),min()
+
+a=[10,20,30,40]
+print(len(a))
+print(max(a))
+print(min(a))
+print(sum(a))
+
+==========loops with list===========
+x=[10,20,30]
+for i in x:
+    print(i)
+
+output:
