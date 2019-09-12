@@ -1,0 +1,111 @@
+
+
+1)Write a program that reflects addition,subtraction,multiplication,division and modulus
+division of two numbers.
+Store the results of each operation in separete variables.
+Use place holders in displaying the results.
+
+2)Determine the output of the following code snippet...
+print((5>2) and (8>3) and (6<9))
+print((5>2) or (8>3) or (6<9))
+print(not(8==8))
+
+
+3)Write a python script to swap two numbers using and without using a temporary variable.
+
+4)Accept a password from the user.
+If the password entered by the user is "Python",then print "You are a valid user".
+Else print "you are an intruder".(Use if-else)
+
+5)Take 3 values and print the maximum and minimum of these three values.
+
+6)Accept gender,qualification and age from the user.
+If the gender is female and the age is less than or equal to 30,then provide some 
+concession in the reservation depending on the qualification.
+
+If the qualification is M.Tech,say that user that he will get 5000 rupees concession.
+If the qualification is B.Tech,say that user that he will get 4000 rupees concession.
+If the qualification is B.com,say that user that he will get 3000 rupees concession.
+Other than these 3 qualifications,just give a concession of 1000 rupees.
+
+Hint:
+Use if-elif
+
+
+7) Write a python script accept a string and count each vowel separately
+8)Write a python script accept a string and reverse the string
+9)Write a python script accept a string and a character and remove
+the given character from string
+10)Accept a string and remove vowels from string
+11)Write a python script accept a string count no.of vowels,no.of consonanats,no.of digits and no.of special characters
+12)Write a python script print multiples of 5 from 1 to 100
+13)write a python script accept a number and find sum of digits of given number. eg : 456 => 4+5+6
+
+14)Using for loop,print all the even nos. from 0 to 50.
+
+15)Using for loop,print the following series
+1 5 10 15 20 25
+
+16)calculate the sum of first 10 natural numbers.
+
+17)Using for loop,find the factorial of a number.
+
+18)Using while loop,determine whether the number taken is amstrong or not.
+
+19)Print febonicci series using while loop upto the number taken.
+
+20)Using while loop,print the odd numbers from 100 to 1.
+
+21)WAP Find max element without using max() function
+
+22)WAP Find min element without using min() function
+
+23)WAP Accept number and diplay its index without index() method
+
+24)WAP accept a element and count total of no of occureneces
+without count() method
+
+26)WAP print above list elements in reverse order without
+using reverse() method
+
+
+27)WAP store all 1 digit numbers into one list and 2 digit numbers into another list and and 3 digit numbers into another list other remaining numbers into another list display
+
+
+28)WAP Store even numbers into one list and odd numbers into another list
+
+
+29)WAP program whatever elements length more than 5 characters.
+
+30)WAP display only duplicate elements.
+
+31)WAP display only non duplicate elements.
+
+
+32)WAP take x list and y list non common elements and write into z list.(symmetric difference)
+
+33)Using a function display the name,age,gender and the addresss of a user.
+
+34)Create 4 reuable blocks, among which,the first block can add numbers for any no. of. times,the
+second the block can subtract numbers for any no. of. times,the third block can multiply numbers for
+any no. of. times and the fourth block can divide the numbers for any no. of. times.Pass the values to
+the reusable blocks using "Pass by value technique".
+
+
+35)Calculate the area of square the a number using call by value technique.Return the value to main
+
+36)Calculate the perimeter of rectangle using call by value.Dont return value to main.
+Functions.txt
+
+37)Using a function display the name,age,gender and the addresss of a user.
+
+38)Create 4 reuable blocks, among which,the first block can add numbers for any no. of. times,the
+second the block can subtract numbers for any no. of. times,the third block can multiply numbers for
+any no. of. times and the fourth block can divide the numbers for any no. of. times.Pass the values to
+the reusable blocks using "Pass by value technique".
+
+
+39)Calculate the area of square the a number using call by value technique.Return the value to main
+
+40)Calculate the perimeter of rectangle using call by value.Dont return value to main.
+
